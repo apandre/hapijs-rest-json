@@ -1,0 +1,514 @@
+[
+  {
+    "id": "e3e5efe3-52f9-45da-9bf5-2c469a1c4357",
+    "title": "Secure Password Storage",
+    "slug": "sps",
+    "description": "This course introduces popular approaches to user password protection and storage, analyzing their common weaknesses and those properties that help schemes resist attack.\nBy learning to evaluate password storage schemes through the properties of their building blocks (hashes, salts, and algorithms), you will be able to properly evaluate password storage options in your development framework, and to articulate the trade-o s between modern schemes. At course end, you will be able to select and harden through con guration your application’s password storage scheme, or select a suitable replacement that best meets your application’s needs.",
+    "time": 4500,
+    "graphic": {
+      "alt": "Secure Password Storage",
+      "src": "http://lorempixel.com/600/480/nature/"
+    },
+    "language": "en",
+    "skill": "intermediate",
+    "date_created": "2017-03-06 21:48:25",
+    "last_update": "2017-04-08 13:32:37",
+    "lessons_count": 16
+  },
+  {
+    "id": "75c56d20-d356-4d6c-826c-51d03b4da7cf",
+    "title": "Foundations of JavaScript and HTML5 Security",
+    "slug": "javascript_html",
+    "description": "As the 5th revision of the HTML standard, HTML5—and its integration with JavaScript—introduces new security risks that developers must mitigate when writing web front-end code. This course introduces common security vulnerabilities and how they can be exploited to damage a web application. It prepares you for Defensive Programming for JavaScript and HTML5 by explaining the client-side code attack surface so you can easily recognize the errors that can put an overall system at risk.",
+    "time": 3600,
+    "graphic": {
+      "alt": "Foundations of JavaScript and HTML5 Security",
+      "src": "http://lorempixel.com/600/480/business/"
+    },
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2017-01-01 17:45:59",
+    "last_update": "2017-04-06 08:05:26",
+    "lessons_count": 18
+  },
+  {
+    "id": "117831dd-27a5-4c71-92a1-ca02e8c05ad0",
+    "title": "Foundations of Java Platform Security",
+    "slug": "java_platform",
+    "description": "The Java platform offers a powerful, versatile, and robust foundation for creating distributed applications. The platform’s speci c architecture and security model sets it apart from other environments. On the one hand, the platform provides developers and architects with a multitude of security features that can be leveraged to create resilient applications. On the other hand, some aspects of the Java platform have negative security implications that software developers must be aware of in order to avoid signi cant security issues.",
+    "time": 4500,
+    "graphic": {
+      "alt": "Foundations of Java Platform Security",
+      "src": "http://lorempixel.com/600/480/cats/"
+    },
+    "language": "en",
+    "skill": "intermediate",
+    "date_created": "2017-03-11 04:28:36",
+    "last_update": "2017-04-04 12:26:20",
+    "lessons_count": 20
+  },
+  {
+    "id": "a080ba98-b31d-4999-9ecb-395f925ef779",
+    "title": "Foundations of .NET Platform Security",
+    "slug": "dot-net",
+    "description": "The .NET platform serves as a powerful framework for developing a wide range of applications, from rich websites and desktop applications to versatile shared libraries and embedded systems. The platform’s speci c architecture and unique security model sets it apart from other environments. While these traits o er developers and architects a variety of enhancements to the capabilities of their applications, they also introduce speci c risks from an application security perspective.",
+    "time": 5400,
+    "graphic": {
+      "alt": "Foundations of .NET Platform Security",
+      "src": "http://lorempixel.com/600/480/technics/"
+    },
+    "language": "en",
+    "skill": "advanced",
+    "date_created": "2017-03-13 15:10:52",
+    "last_update": "2017-03-21 15:14:05",
+    "lessons_count": 17
+  },
+  {
+    "id": "8deb2060-c119-11e8-80d4-df727215ed7d",
+    "title": "fgdfgndfh",
+    "slug": "fdfjdfhj",
+    "description": "fjdfhjjluo;ip;uil;luwrthyfhjrk",
+    "time": 3333,
+    "language": ";fgljyeorpig",
+    "skill": "fsdfgh",
+    "date_created": "2018-09-25 23:20:53",
+    "last_update": "2018-09-25 23:20:53",
+    "lessons_count": 33,
+    "graphic": {
+      "alt": "g56ryjrtj",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+    }
+  },
+  {
+    "id": "1f4b2910-c11a-11e8-979c-49d89687519d",
+    "title": "dfghdfgh",
+    "slug": "fghdfgh",
+    "description": "fghdfghdfgh",
+    "time": 444,
+    "language": "fghdfgh",
+    "skill": "dfghdfh",
+    "date_created": "2018-09-25 23:24:34",
+    "last_update": "2018-09-25 23:24:34",
+    "lessons_count": 44,
+    "graphic": {
+      "alt": "fghdfghfh",
+      "src": "https://raw.githubusercontent.com/hapijs/hapi/master/test/file/image.jpg"
+    }
+  },
+  {
+    "id": "df2461b0-c1f2-11e8-998d-fd80c2919989",
+    "title": "qwerty",
+    "slug": "uiop",
+    "description": "asdfghjkl",
+    "time": 6666,
+    "language": "en",
+    "skill": "bnm",
+    "date_created": "2018-09-27 01:17:24",
+    "last_update": "2018-09-27 01:17:24",
+    "lessons_count": 6,
+    "graphic": {
+      "alt": "zxcv",
+      "src": "https://i1.wp.com/www.andreafortuna.org/wp-content/uploads/2018/04/json-logo.png"
+    }
+  },
+  {
+    "id": "5d0718c0-c1f3-11e8-ac71-b1ee70bf015c",
+    "title": "sdfggsdfg",
+    "slug": "dgsdfg",
+    "description": "dfgsdfgsdfgsdfgsdfg",
+    "time": 777,
+    "language": "en",
+    "skill": "sdfgsdfg",
+    "date_created": "2018-09-27 01:21:14",
+    "last_update": "2018-09-27 01:21:14",
+    "lessons_count": 7,
+    "graphic": {
+      "alt": "dfdsfg",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+    }
+  },
+  {
+    "id": "5db7c3c0-c1f6-11e8-a26d-f1ae2a43eadf",
+    "title": "CSS3",
+    "slug": "css3",
+    "description": "Cascading Style Sheets language",
+    "time": 8888,
+    "language": "en",
+    "skill": "css3",
+    "date_created": "2018-09-27 01:42:12",
+    "last_update": "2018-09-27 01:42:12",
+    "lessons_count": 33,
+    "graphic": {
+      "alt": "CSS3",
+      "src": "https://vignette.wikia.nocookie.net/howtoprogram/images/a/a9/CSS3.png"
+    }
+  },
+  {
+    "id": "8f3d0070-c1f8-11e8-aa0c-cbced7cc2ced",
+    "title": "GitHub",
+    "slug": "GitHub",
+    "description": "GitHub",
+    "time": 999,
+    "language": "en",
+    "skill": "GitHub",
+    "date_created": "2018-09-27 01:57:16",
+    "last_update": "2018-09-27 01:57:16",
+    "lessons_count": 99,
+    "graphic": {
+      "alt": "GitHub",
+      "src": "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
+    }
+  },
+  {
+    "id": "5a605e90-c1fa-11e8-b7a3-0b1a153731b7",
+    "title": "GitHub",
+    "slug": "GitHub",
+    "description": "github",
+    "time": 1234,
+    "language": "en",
+    "skill": "GitHub",
+    "date_created": "2018-09-27 02:11:39",
+    "last_update": "2018-09-27 02:11:39",
+    "lessons_count": 12,
+    "graphic": {
+      "alt": "GitHub",
+      "src": "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png"
+    }
+  },
+  {
+    "id": "549c6630-c1fe-11e8-b90d-d38c2b91d913",
+    "title": "dghfgh",
+    "slug": "fgfdg",
+    "description": "fghfh",
+    "time": 555,
+    "language": "fgh",
+    "skill": "dfgfg",
+    "date_created": "2018-09-27 02:38:31",
+    "last_update": "2018-09-27 02:38:31",
+    "lessons_count": 54,
+    "graphic": {
+      "alt": "hfdgh",
+      "src": "http://www.apache.org/img/asf_logo.png"
+    }
+  },
+  {
+    "id": "a32ff770-c21d-11e8-8a9e-f55de6cafb72",
+    "title": "W3C",
+    "slug": "w3c",
+    "description": "The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards. Led by Web inventor and Director Tim Berners-Lee and CEO Jeffrey Jaffe, W3C's mission is to lead the Web to its full potential. Contact W3C for more information.",
+    "time": 8888,
+    "language": "en",
+    "skill": "w3c",
+    "date_created": "2018-09-27 06:24:03",
+    "last_update": "2018-09-27 06:24:03",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "W3C",
+      "src": "https://www.w3.org/Icons/w3c_icon.svg"
+    }
+  },
+  {
+    "id": "f0548a17-fa3a-4a98-8221-cb7135de2241",
+    "title": "OWASP Top 10",
+    "slug": "owasp-top-10",
+    "description": "The OWASP Top Ten is a well-established guideline for any technology professional responsible for building secure web applications. The Top Ten list is referenced by many standards and publications and offers tremendous, actionable value to learners looking to build secure software.",
+    "time": 1800,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2017-01-01 17:45:59",
+    "last_update": "2018-09-27 06:52:14",
+    "lessons_count": 25,
+    "graphic": {
+      "alt": "OWASP Top 10",
+      "src": "http://lorempixel.com/600/480/sports/"
+    }
+  },
+  {
+    "id": "2ff28160-338c-44f9-88df-975f7b54b816",
+    "title": "Foundations of Software Security",
+    "slug": "foss",
+    "description": "Dive into the basics of software security inside the development process. This course introduces the fundamentals of software security problems, risks, and general approaches for producing better software. It also describes an approach to building software security into the development processes to help you produce better software. This course was created by the experts who literally wrote the book on software security. The approaches described here are currently being utilized by leading global companies with mature software security initiatives.",
+    "time": 5400,
+    "language": "en",
+    "skill": "advanced",
+    "date_created": "2017-01-09 18:40:02",
+    "last_update": "2018-09-27 07:03:15",
+    "lessons_count": 20,
+    "graphic": {
+      "alt": "Foundations of Software Security",
+      "src": "http://lorempixel.com/600/480/city/"
+    }
+  },
+  {
+    "id": "1ad52ca1-14ef-4a2e-8aa3-2033f14afc09",
+    "title": "Foundations of Information Security Awareness",
+    "slug": "FISA",
+    "description": "Security Awareness is a process of constant re nement and education. Every person has a key role in keeping their company secure and out of the headlines. This course will walk through what it takes to e ectively identify and act upon security risks in your personal and work lives.",
+    "time": 4500,
+    "language": "en",
+    "skill": "intermediate",
+    "date_created": "2017-02-03 21:30:00",
+    "last_update": "2018-09-27 07:03:41",
+    "lessons_count": 15,
+    "graphic": {
+      "alt": "Foundations of Information Security Awareness",
+      "src": "http://lorempixel.com/600/480/people/"
+    }
+  },
+  {
+    "id": "e98d5889-616b-4033-bc68-68e54585d90f",
+    "title": "Attack and Defense",
+    "slug": "a_a_d",
+    "description": "Web applications are becoming an increasingly high-value target for hackers looking to make a quick buck, damage reputations, or just boost their “street cred.” There is no shortage of publicly known attack tools and techniques, and as software developers we are outnumbered and at the front line of the defense. This course will teach you how vulnerabilities are discovered and exploited in the real world and how to build a strong line of defense.",
+    "time": 5400,
+    "language": "en",
+    "skill": "intermediate",
+    "date_created": "2017-02-04 03:24:26",
+    "last_update": "2018-09-27 07:09:55",
+    "lessons_count": 10,
+    "graphic": {
+      "alt": "Attack and Defense",
+      "src": "http://lorempixel.com/600/480/transport/"
+    }
+  },
+  {
+    "id": "0e00c780-c1df-11e8-928e-8b7e62dece02",
+    "title": "0e00c780",
+    "slug": "c1df",
+    "description": "11e8",
+    "time": 2222,
+    "language": "en",
+    "skill": "928e",
+    "date_created": "2018-09-26 22:55:05",
+    "last_update": "2018-09-27 07:18:30",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "8b7e62dece02",
+      "src": "https://cdn.worldvectorlogo.com/logos/ubuntu-icon.svg"
+    }
+  },
+  {
+    "id": "3095cfdd-7c08-476c-955c-0d03f3896263",
+    "title": "Developing Securely for PCI DSS",
+    "slug": "pci",
+    "description": "Vulnerabilities to payment card security are a threat to everyone with a credit or debit card in their wallet. Every day, we e ectively transmit highly personal and sensitive data about ourselves to strangers. If all goes well, only the intended recipients ever see our information. If not, the results can be disastrous. Thus the criticality of the Payment Card Industry Data Security Standard (PCI DSS). PCI DSS provides guidance to organizations that collect, process, transmit, or store cardholder data. In this course, you will learn about PCI DSS: the data it is intended to secure, its requirements, how to incorporate those requirements into code, and how to avoid common mistakes that can make your software vulnerable to attack.",
+    "time": 3600,
+    "language": "en",
+    "skill": "advanced",
+    "date_created": "2017-02-17 18:53:27",
+    "last_update": "2018-09-27 08:56:06",
+    "lessons_count": 12,
+    "graphic": {
+      "alt": "Developing Securely for PCI DSS",
+      "src": "http://lorempixel.com/600/480/animals/"
+    }
+  },
+  {
+    "id": "397c7ae0-c233-11e8-8608-5d771a15644e",
+    "title": "AWS",
+    "slug": "aws",
+    "description": "Amazon Web Services",
+    "time": 2222,
+    "language": "en",
+    "skill": "aws",
+    "date_created": "2018-09-27 08:57:44",
+    "last_update": "2018-09-27 08:59:47",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "AWS",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+    }
+  },
+  {
+    "id": "b4266287-e11d-4f0d-8164-361231faaa5a",
+    "title": "Introduction to Cryptography for Developers and Architects",
+    "slug": "crypto",
+    "description": "Cryptography is used to address issues of con dentiality, data integrity, data origin, authentication, entity authentication, and non-repudiation. Although cryptography does not eliminate security issues, it does make them more manageable by reducing the task of protecting a large amount of data to a matter of protecting a relatively small key. This course discusses the use of cryptographic algorithms and techniques as they are typically applied within the practice of information security.",
+    "time": 5400,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2017-02-24 03:02:13",
+    "last_update": "2018-09-28 03:39:01",
+    "lessons_count": 14,
+    "graphic": {
+      "alt": "Introduction to Cryptography for Developers and Architects",
+      "src": "http://lorempixel.com/600/480/food/"
+    }
+  },
+  {
+    "id": "22693890-c2f4-11e8-bf6b-757e4c6dfeb9",
+    "title": "Firefox",
+    "slug": "firefox",
+    "description": "Firefox web browser",
+    "time": 555,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-28 07:59:26",
+    "last_update": "2018-09-28 09:25:21",
+    "lessons_count": 5,
+    "graphic": {
+      "alt": "firefox",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Firefox_Logo%2C_2017.svg"
+    }
+  },
+  {
+    "id": "98686df0-c1cc-11e8-be5e-3be951e54859",
+    "title": "Handlebars",
+    "slug": "handlebars",
+    "description": "rthrthrthrthyj5ur",
+    "time": 555,
+    "language": "en",
+    "skill": "k;ldfbgdfb",
+    "date_created": "2018-09-26 20:44:52",
+    "last_update": "2018-09-28 13:28:06",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "trth",
+      "src": "https://handlebarsjs.com/images/handlebars_logo.png"
+    }
+  },
+  {
+    "id": "ea5cb260-c217-11e8-91f3-51810afebc8e",
+    "title": "NGINX",
+    "slug": "dfggsdfg",
+    "description": "dfgsdfgdg",
+    "time": 666,
+    "language": "dfgdsfg",
+    "skill": "gsdfg",
+    "date_created": "2018-09-27 05:42:55",
+    "last_update": "2018-09-29 00:23:00",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "sdfgsdfg",
+      "src": "https://cdn-1.wp.nginx.com/wp-content/themes/nginx-new/assets/img/logo.svg"
+    }
+  },
+  {
+    "id": "afc1ec80-c436-11e8-a4a0-31e785a6897b",
+    "title": "Linux",
+    "slug": "linux",
+    "description": "Linux Operating System",
+    "time": 4444,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-29 22:26:19",
+    "last_update": "2018-09-29 22:26:19",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "Linux",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+    }
+  },
+  {
+    "title": "Linux",
+    "slug": "linux",
+    "description": "Linux Operating System",
+    "time": 4444,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-30 07:58:34",
+    "last_update": "2018-09-30 07:58:34",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "Linux",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+    },
+    "id": "a189bb20-c486-11e8-9f13-ab8a24248a5b"
+  },
+  {
+    "id": "ce1710c0-c486-11e8-b368-cb316aa87175",
+    "title": "Linux",
+    "slug": "linux",
+    "description": "Linux Operating System",
+    "time": 4444,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-30 07:59:49",
+    "last_update": "2018-09-30 07:59:49",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "Linux",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+    }
+  },
+  {
+    "id": "b9514eb0-c488-11e8-8335-710204625256",
+    "title": "Linux",
+    "slug": "linux",
+    "description": "Linux Operating System",
+    "time": 4444,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-30 08:13:33",
+    "last_update": "2018-09-30 08:13:33",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "Linux",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+    }
+  },
+  {
+    "id": "5ce85ea0-c48f-11e8-afb8-93abfe7b04fc",
+    "title": "Linux",
+    "slug": "linux",
+    "description": "Linux Operating System",
+    "time": 4444,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-30 09:01:05",
+    "last_update": "2018-09-30 09:01:05",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "Linux",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+    }
+  },
+  {
+    "id": "c9f404e0-c48f-11e8-9b3c-bb26dd88dace",
+    "title": "Linux",
+    "slug": "linux",
+    "description": "Linux Operating System",
+    "time": 4444,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-30 09:04:08",
+    "last_update": "2018-09-30 09:04:08",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "Linux",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+    }
+  },
+  {
+    "id": "0437ca60-c490-11e8-93b3-2589ed24da46",
+    "title": "Linux",
+    "slug": "linux",
+    "description": "Linux Operating System",
+    "time": 4444,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-30 09:05:45",
+    "last_update": "2018-09-30 09:05:45",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "Linux",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+    }
+  },
+  {
+    "id": "29c68190-c490-11e8-a0e7-6b32bb9f3a28",
+    "title": "Bash",
+    "slug": "sh",
+    "description": "Bash shell",
+    "time": 4444,
+    "language": "en",
+    "skill": "basic",
+    "date_created": "2018-09-30 09:06:49",
+    "last_update": "2018-09-30 09:17:11",
+    "lessons_count": 22,
+    "graphic": {
+      "alt": "bash",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg"
+    }
+  }
+]
