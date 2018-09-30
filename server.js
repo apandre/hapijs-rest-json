@@ -14,9 +14,9 @@ const Handlebars = require('handlebars');
 // I like to use variables __file, __func, __line in my debugging logs
 require('magic-globals');
 
-//const ctrlCourses = require('./controllers/controllers.courses');
 const CoursesRoutes = require('./routes/routes.courses');
 
+// I'll come back for AAA implementation'
 /*
 const users = {
 	john: {
@@ -50,7 +50,7 @@ const validate = async (request, username, password, h) => {
 
 const start = async function () {
 
-	const server = Hapi.server({ host: '192.168.1.27', port: 8000 }); //192.168.1.27
+	const server = Hapi.server({ host: 'localhost', port: 8000 });
 
 	const pgntnOptions = {
 		query: {
