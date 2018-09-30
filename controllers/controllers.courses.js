@@ -14,7 +14,7 @@ const Courses = require('../models/model.courses');
 /**
  * @summary UI call to Home page
  */
-var home = async function (request, h) {                                     // Tested
+var home = async function (request, h) {
 	// Redirect to Courses paginated list
 	let limit;
 	limit = request.server.registrations['hapi-pagination'].options.query.limit.default;
@@ -53,7 +53,7 @@ var home = async function (request, h) {                                     // 
  * If there is no query param 'calltype' or it is equal 'html',
  * then output will be a Vision View.
  */
-var getCoursesAPI = async function (request, h) {                      // Tested
+var getCoursesAPI = async function (request, h) {
 
 	let res = Courses.getAll();
 	const inventory = res.collection;
@@ -90,10 +90,10 @@ This API could be tested with browser extension like RESTclient for Firefox,
 Postman for Chrome or command-line like this:
 
 For getting paginated result:
-curl -X GET -i 'http://192.168.1.27:8000/api/courses'
+curl -X GET -i 'http://localhost:8000/api/courses'
 
 For getting not paginated result:
-curl -X GET -i 'http://192.168.1.27:8000/api/courses?pagination=false'
+curl -X GET -i 'http://localhost:8000/api/courses?pagination=false'
 
 Note: host and port number must reflect your configuration.
 */
@@ -219,7 +219,7 @@ var getCourseByIdAPI = async function (request, h) {               // Tested
  * This API could be tested with browser extension like RESTclient for Firefox,
  * Postman for Chrome or command-line like this:
  *
- * curl -X GET -i 'http://192.168.1.27:8000/api/course/e3e5efe3-52f9-45da-9bf5-2c469a1c4357'
+ * curl -X GET -i 'http://localhost:8000/api/course/e3e5efe3-52f9-45da-9bf5-2c469a1c4357'
  *
  * Note: host, port number and id must reflect your configuration.
  */
@@ -265,7 +265,7 @@ var deleteAPI = async function (request, h) {                     // Tested
 This API could be tested like this:
 
 curl -X DELETE -H 'Content-Type: application/json' \
-   -i 'http://192.168.1.27:8000/api/course' \
+   -i 'http://localhost:8000/api/course' \
    --data '{ "id": "6503f710-c224-11e8-ad5d-6b29deb8c778" }'
 */
 
@@ -398,7 +398,7 @@ This API could be tested with browser extension like RESTclient for Firefox,
 Postman for Chrome or command-line like this:
 
 curl -X POST -H 'Content-Type: application/json' \
- -i 'http://192.168.1.27:8000/api/course/create' \
+ -i 'http://localhost:8000/api/course/create' \
  --data '{
 	"id": "whatever here will be overwritten",
 	"title": "Linux",
@@ -505,7 +505,7 @@ This API could be tested with browser extension like RESTclient for Firefox,
 Postman for Chrome or command-line like this:
 
 curl -X PUT -H 'Content-Type: application/json' \
- -i 'http://192.168.1.27:8000/api/course' \
+ -i 'http://localhost:8000/api/course' \
  --data '{
 	"id": "6503f710-c224-11e8-ad5d-6b29deb8c778",
 	"title": "Linux",
