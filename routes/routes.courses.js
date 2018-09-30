@@ -1,5 +1,6 @@
 /**
- *
+ * @author Alex Pandre
+ * @copyright 2018-Present, Alex Pandre
  */
 
 const ctrlCourses = require('../controllers/controllers.courses');

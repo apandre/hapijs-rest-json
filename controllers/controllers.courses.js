@@ -39,19 +39,6 @@ var home = async function (request, h) {
  * There is no info on hapi-pagination and vision views to work together.
  * I've tried. Route that configured to work with hapi-pagination plugin
  * will trow error on attempt to return h.view('courses', data);
- * Anyway, it is cleaner this way in case of using api for mobile
- * or some other service that provide its own UI.
- *
- * However,
- * if I'll find a way for hapi-pagination and vision views to work together,
- * or when I'll create model method to obtain paginated list,
- * then it would be possible to to have one API call for each method
- * by introducing another query param like {'calltype': 'json'}
- * to indicate call type.
- * In this case, if query param 'calltype' equal 'json',
- * then output will be JSON.
- * If there is no query param 'calltype' or it is equal 'html',
- * then output will be a Vision View.
  */
 var getCoursesAPI = async function (request, h) {
 
@@ -112,7 +99,6 @@ Note: host and port number must reflect your configuration.
  * @returns Handlebars template html
  */
 var getCourses = async function (request, h) {
-	//console.log( __file, __func, __line, ">>> request.query:\n", request.query, "\n" );
 
 	let limit;
 	if ( request.query.limit ) {
@@ -211,7 +197,7 @@ function getCourseByIdHelper( id ) {
  * @description route method: 'GET', path: '/api/course/{id}'
  * @returns JSON
  */
-var getCourseByIdAPI = async function (request, h) {               // Tested
+var getCourseByIdAPI = async function (request, h) {
 	const result = getCourseByIdHelper(request.params.id);
 	return h.response(result.record);
 }
@@ -248,7 +234,7 @@ var getCourseById = async function (request, h) {
  *              header: 'Content-Type': 'application/json'
  * @returns JSON
  */
-var deleteAPI = async function (request, h) {                     // Tested
+var deleteAPI = async function (request, h) {
 	if ( !request.payload ) return h.response({
 		statusCode: 400,   message: 'There is no payload'
 	});
@@ -375,7 +361,7 @@ function prepRecord( request ) {
  *              header: 'Content-Type': 'application/json'
  *    posted data must be JSON representation of the future record without id
  */
-var createAPI = async function (request, h) {                     // Tested
+var createAPI = async function (request, h) {
 	// Fields date_created and last_update will be overwritten
 	const res = prepRecord( request );
 
@@ -482,7 +468,7 @@ var createActionPostForm = async function (request, h) {
  * @description route method: 'PUT', path: '/api/course'
  *              header: 'Content-Type': 'application/json'
  */
-var updateAPI = async function (request, h) {                                // Tested
+var updateAPI = async function (request, h) {
 	//console.log( __file, __func, __line, ">>> request.payload:\n", request.payload, "\n" );
 	const result = prepRecord( request );
 

@@ -14,6 +14,7 @@ const jsonDB = __dirname + '/inventory.json';
 
 /**
  * @summary Get all data as object from JSON file
+ * @returns { collection:  inventory | null,   [error: 'error message'] }
  */
 var getAll = function () {
 	const filepath = jsonDB;
