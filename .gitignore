@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# my notes and comments
+myNotes.txt
+
+# lets 'npm install' to generate one
+package-lock.json
