@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>{{pageTitle}}</title>
+    <meta content="">
+    <style>
+			.pagination {
+				clear: both;
+				font-size: 200%;
+			}
+			.pagination-list-node {
+				border: 1px solid black;
+				float: left;
+				margin: 2;
+				padding: 5;
+			}
+			
+			ul.none {
+				list-style-type: none;
+				margin: 7;
+				padding: 0;
+			}
+
+			.float {
+				float: left;
+			}
+			
+			.no-float {
+				clear: both;
+			}
+    </style>
+    <script>/*
+			let urlParams = new URLSearchParams(window.location.search);
+			var limit = urlParams.get('limit');*/
+    </script>
+  </head>
+  <body>
+		<div>
+				<h1>{{Title}} (Items per page: {{perPage}}. You can change it in URL address.)</h1>
+
+				<div>
+					{{#each courses}}
+						<div style="border: 1px solid black; clear: both; padding: 5 10 5 10;">
+						<!-- flex-wrap: nowrap;-->
+							<a id="{{id}}" href="{{courseURL}}" style="text-decoration: none; color: black;">
+								<div class="no-float"><b>{{title}}</b></div>
+								<div class="no-float">
+									<div style="overflow: auto;">
+										<!-- class="float"  -->
+										<!-- position: relative; display:block; width: auto;-->
+										<div class="float" style="margin: 5 15 0 0; overflow: auto;">
+											<!-- position: relative; overflow: auto; display:block; width: auto; -->
+											<img src="{{grSrc}}" alt="{{grAlt}}" height="130">
+										</div>
+										{{description}}
+									</div>
+								</div>
+							</a>
+						</div>
+					{{/each}}
+				</div>
+
+				<div class="pagination pagination-centered">
+					<ul class="none">
+							<li>
+								<div class="pagination-list-node">
+									<a href="{{first}}">First</a>
+								</div>
+							</li>
+							<li>
+								<div class="pagination-list-node">
+								{{#if hasPrevious}}
+									<a href="{{previous}}">Prev</a>
+								{{else}}
+									Prev
+								{{/if}}
+								</div>
+							</li>
+							<li>
+								<div class="pagination-list-node">
+									Page {{page}} of {{pageCount}}
+								</div>
+							</li>
+							<li>
+								<div class="pagination-list-node">
+								{{#if hasNext}}
+									<a href="{{next}}">Next</a>
+								{{else}}
+									Next
+								{{/if}}
+								</div>
+							</li>
+							<li>
+								<div class="pagination-list-node">
+									<a href="{{last}}">Last</a>
+								</div>
+							</li>
+					</ul>
+				</div>
+
+		</div>
+  </body>
+</html>

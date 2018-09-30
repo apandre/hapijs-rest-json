@@ -1,0 +1,260 @@
+<html>
+  <head>
+    <title>Course View</title>
+    <meta content="">
+    <style>
+
+			body {
+				background-color: Ivory;
+			}
+
+			fieldset {
+				clear: both;
+				width: auto;
+			}
+
+			fieldset div {
+				float: left;
+			}
+
+			.floatl {
+				float: left;
+			}
+
+			.floatr {
+				float: right;
+			}
+			
+			.no-float {
+				clear: both;
+			}
+
+			legend {
+				background-color: black;
+				color: white;
+				padding: 5;
+				margin: 5;
+			}
+
+			input, textarea {
+				margin: 5;
+				font-size: 100%;
+			}
+			/*
+			textarea {
+				font-size: 100%;
+			}*/
+			
+			label {
+				display: block;
+			}
+
+			.disabled {
+				pointer-events: none;
+				background: lightgrey;
+			}
+    </style>
+    <script>
+			function switch2edit() {
+				document.getElementById("id").disabled            = false;
+				document.getElementById("id").required            = true;
+				document.getElementById("title").disabled         = false;
+				document.getElementById("title").required         = true;
+				document.getElementById("slug").disabled          = false;
+				document.getElementById("slug").required          = true;
+				document.getElementById("description").disabled   = false;
+				document.getElementById("description").required   = true;
+				document.getElementById("time").disabled          = false;
+				document.getElementById("time").required          = true;
+				document.getElementById("graphic_alt").disabled   = false;
+				document.getElementById("graphic_alt").required   = true;
+				document.getElementById("graphic_src").disabled   = false;
+				document.getElementById("graphic_src").required   = true;
+				document.getElementById("language").disabled      = false;
+				document.getElementById("language").required      = true;
+				document.getElementById("skill").disabled         = false;
+				document.getElementById("skill").required         = true;
+				document.getElementById("date_created").disabled  = false;
+				document.getElementById("last_update").disabled   = false;
+				document.getElementById("lessons_count").disabled = false;
+				document.getElementById("lessons_count").required = true;
+				document.getElementById("save").disabled          = false;
+				document.getElementById("delete").disabled        = true;
+				document.getElementById("edit").disabled          = true;
+				document.getElementById("view").disabled          = false;
+			}
+
+			function switch2view() {
+				document.getElementById("id").disabled            = false;
+				document.getElementById("id").required            = true;
+				document.getElementById("title").disabled         = true;
+				document.getElementById("title").required         = true;
+				document.getElementById("slug").disabled          = true;
+				document.getElementById("slug").required          = true;
+				document.getElementById("description").disabled   = true;
+				document.getElementById("description").required   = true;
+				document.getElementById("time").disabled          = true;
+				document.getElementById("time").required          = true;
+				document.getElementById("graphic_alt").disabled   = true;
+				document.getElementById("graphic_alt").required   = true;
+				document.getElementById("graphic_src").disabled   = true;
+				document.getElementById("graphic_src").required   = true;
+				document.getElementById("language").disabled      = true;
+				document.getElementById("language").required      = true;
+				document.getElementById("skill").disabled         = true;
+				document.getElementById("skill").required         = true;
+				document.getElementById("date_created").disabled  = true;
+				document.getElementById("last_update").disabled   = true;
+				document.getElementById("lessons_count").disabled = true;
+				document.getElementById("lessons_count").required = true;
+				document.getElementById("save").disabled          = true;
+				document.getElementById("delete").disabled        = false;
+				document.getElementById("edit").disabled          = false;
+				document.getElementById("view").disabled          = true;
+			}
+    </script>
+  </head>
+{{#if title}}
+  <body>
+{{else}}
+	<body onload="switch2edit()">
+{{/if}}
+		<div>
+
+			<h1>
+				{{#if title}}
+					Course View
+				{{else}}
+					Fill-in to Create Course
+				{{/if}}
+			</h1>
+
+			<form method="post">
+
+				<div>
+					<label for="id">id:</label>
+					<input type="text" id="id" name="id" size="35"
+						value="{{id}}" class="disabled"
+					/>
+				</div>
+
+				<fieldset>
+					<legend>Course fields:</legend>
+
+					<div>
+						<label for="title">title:</label>
+						<input type="text" id="title" name="title" size="30"
+							value="{{title}}" disabled
+						/>
+					</div>
+
+					<div>
+						<label for="slug">slug:</label>
+						<input type="text" id="slug" name="slug" size="30" value="{{slug}}"
+							disabled
+						/>
+					</div>
+
+					<div class="no-float">
+						<label for="description">description:</label>
+						<textarea id="description" name="description" rows="3" cols="59"
+							maxlength="1024" wrap="soft" disabled>{{description}}</textarea>
+					</div>
+
+					<div class="no-float">
+						<label for="time">time:</label>
+						<input type="number" id="time" name="time" size="30"
+							value="{{time}}" disabled
+						/>
+					</div>
+
+					<fieldset>
+						<legend>graphic fields:</legend>
+
+						<div>
+							<label for="graphic_alt">graphic.alt:</label>
+							<input type="text" id="graphic_alt" name="graphic_alt" size="25"
+								value="{{graphic.alt}}" disabled
+							/>
+						</div>
+
+						<div>
+							<label for="graphic_src">graphic.src:</label>
+							<input type="text" id="graphic_src" name="graphic_src" size="50"
+								value="{{graphic.src}}" disabled
+							/>
+						</div>
+
+					</fieldset>
+
+					<div>
+						<label for="language">language:</label>
+						<input type="text" id="language" name="language" size="30"
+							value="{{language}}" disabled
+						/>
+					</div>
+
+					<div>
+						<label for="skill">skill:</label>
+						<input type="text" id="skill" name="skill" size="30"
+							value="{{skill}}" disabled
+						/>
+					</div>
+
+					<div class="no-float">
+						<label for="date_created">date_created:
+							{{#unless title}}(filled in on saving){{/unless}}
+						</label>
+						<input type="datetime" id="date_created" name="date_created" 
+							size="35" value="{{date_created}}" disabled class="disabled"
+						/>
+					</div>
+
+					<div>
+						<label for="last_update">last_update: (filled in on saving)
+						</label>
+						<input type="datetime" id="last_update" name="last_update" 
+							size="35" value="{{last_update}}" disabled class="disabled"
+						/>
+					</div>
+
+					<div class="no-float">
+						<label for="lessons_count">lessons_count:</label>
+						<input type="number" id="lessons_count" name="lessons_count" 
+							size="30" value="{{lessons_count}}" disabled
+						/>
+					</div>
+
+				</fieldset>
+				<div>
+				{{#if title}}
+					<div class="floatl">
+						<input type="button" id="view" name="view" value="View"
+							disabled onClick="{{view_onclick}}"
+						/><!-- switch2view(); -->
+					</div>
+					<div class="floatl">
+						<input type="button" id="edit" name="edit" value="Edit"
+							onClick="{{edit_onclick}}"
+						/>
+					</div>
+					<div class="floatr">
+						<input type="submit" id="delete" name="delete" value="Delete"
+							formaction="/course/delete"
+						/>
+					</div>
+				{{/if}}
+
+				{{#if formaction}}
+					<div class="floatl">
+						<input type="submit" id="save" name="save" value="Save"
+							disabled formaction="{{formaction}}"
+						/>
+					</div>
+				{{/if}}
+				</div>
+			</form>
+
+		</div>
+  </body>
+</html>
