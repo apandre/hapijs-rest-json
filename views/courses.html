@@ -13,7 +13,7 @@
 				margin: 2;
 				padding: 5;
 			}
-			
+
 			ul.none {
 				list-style-type: none;
 				margin: 7;
@@ -23,15 +23,11 @@
 			.float {
 				float: left;
 			}
-			
+
 			.no-float {
 				clear: both;
 			}
     </style>
-    <script>/*
-			let urlParams = new URLSearchParams(window.location.search);
-			var limit = urlParams.get('limit');*/
-    </script>
   </head>
   <body>
 		<div>
@@ -45,10 +41,7 @@
 								<div class="no-float"><b>{{title}}</b></div>
 								<div class="no-float">
 									<div style="overflow: auto;">
-										<!-- class="float"  -->
-										<!-- position: relative; display:block; width: auto;-->
 										<div class="float" style="margin: 5 15 0 0; overflow: auto;">
-											<!-- position: relative; overflow: auto; display:block; width: auto; -->
 											<img src="{{grSrc}}" alt="{{grAlt}}" height="130">
 										</div>
 										{{description}}
